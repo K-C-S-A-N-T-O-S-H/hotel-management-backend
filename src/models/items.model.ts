@@ -2,7 +2,7 @@ import { model, Schema, Document } from 'mongoose';
 import { items } from '@interfaces/items.interface';
 
 const itemSchema: Schema = new Schema({
-    hote_id: {
+    hotel_id: {
         type: String,
     },
     menu_id: {
@@ -12,7 +12,7 @@ const itemSchema: Schema = new Schema({
         type: String,
     },
     item_price: {
-        type: String,
+        type: Number,
         default: null,
     },
     from_time: {

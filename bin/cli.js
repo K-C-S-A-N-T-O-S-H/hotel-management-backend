@@ -9,13 +9,13 @@
 const { execSync } = require('child_process');
 
 const runCommand = command => {
-  try {
-    execSync(command, { stdio: 'inherit' });
-    return true;
-  } catch (e) {
-    console.error(`Failed to execute ${command}`);
-    return false;
-  }
+    try {
+        execSync(command, { stdio: 'inherit' });
+        return true;
+    } catch (e) {
+        console.error(`Failed to execute ${command}`);
+        return false;
+    }
 };
 
 const defaultRepoName = 'typescript-express-mongoose-starter';

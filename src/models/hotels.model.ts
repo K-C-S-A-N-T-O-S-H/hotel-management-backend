@@ -26,6 +26,14 @@ const hotelSchema: Schema = new Schema(
             type: String,
             default: null,
         },
+        hotel_tables: {
+            type: Array,
+            default: null,
+        },
+        menu_type: {
+            type: Array,
+            default: null,
+        },
     },
     {
         timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' },

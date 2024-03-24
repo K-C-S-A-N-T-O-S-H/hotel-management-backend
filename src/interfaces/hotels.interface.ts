@@ -11,6 +11,6 @@ export interface hotel {
     updated_by: string | null;
     created_at: Date;
     update_at: Date | null;
-    hotelTables: hotelTables[] | null;
-    menuType: menuType[] | null;
+    hotel_tables: hotelTables[] | null;
+    menu_type: menuType[] | null;
 }
