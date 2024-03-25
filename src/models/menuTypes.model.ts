@@ -3,7 +3,7 @@ import { menuType } from '@interfaces/menuTypes.interface';
 
 const menuTypeSchema: Schema = new Schema(
     {
-        hote_id: {
+        hotel_id: {
             type: String,
         },
         menu_name: {
